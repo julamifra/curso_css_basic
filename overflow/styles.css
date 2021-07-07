@@ -1,0 +1,17 @@
+/*  Ejercicio 1 */
+
+/* los elementos padres no perciben los elementos flotantes en su interior
+por ello se le añade esta propiedad 'overflow' para que los perciba */
+
+div {
+    width: 300px;
+    height: 100px;
+    background: gray;
+    margin: 0 auto;
+    padding: 5px;
+    /* overflow: auto; */
+}
+
+p {
+    margin: 0px;
+}

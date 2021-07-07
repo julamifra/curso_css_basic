@@ -1,0 +1,19 @@
+main {
+    background-color: yellowgreen;
+    padding: 20px;
+}
+h1{
+    background-color: gray;
+    
+}
+h2{
+    background-color: lightgray;
+
+}
+li{
+    font-size: 16px;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}

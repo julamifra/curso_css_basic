@@ -1,0 +1,24 @@
+/* .uno {
+    background-color: blue;
+    width: 250px;
+    height: 150px;
+    position: relative;
+}
+.dos {
+    width: 250px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+} */
+.uno {
+    width: 250px;
+    height: 150px;
+    background-color: green;
+    position: fixed;
+    top: 0px;
+}
+p:first-of-type {
+    margin-top: 160px;
+}

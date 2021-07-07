@@ -1,0 +1,15 @@
+.uno {
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    z-index: 970;
+}
+.dos {
+    width: 250px;
+    height: 150px;
+    background-color: green;
+    position: relative;
+    z-index: 980;
+}

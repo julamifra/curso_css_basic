@@ -1,0 +1,43 @@
+/*  Ejercicio 1 */
+
+div {
+    /* background: burlywood;
+    height: 300px;
+    overflow: auto; 
+    */
+    padding: 5px;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+}
+
+.avatar {
+    float: left;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.contenido {
+    float: left;
+    width: 65%;
+    border: 1px solid blue;
+}
+
+/*  Ejercicio 2 */
+/* los elementos padres no perciben los elementos flotantes en su interior
+por ello se le añade esta propiedad 'overflow' para que los perciba */
+/*
+div#contenedor {
+    background: gray;
+    width: 400px;
+    overflow: auto;  }
+
+div > div  {
+    width: 100px; 
+    height: 100px; 
+    margin: 5px;
+    background-color: red;
+    float: left; 
+} */

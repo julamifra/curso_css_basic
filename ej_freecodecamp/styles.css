@@ -1,0 +1,59 @@
+/* Main */
+main {
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 600px;
+}
+
+/* Contenido */
+.contenido h1, .contenido h2, .contenido h3 {
+    font-size: 35px;
+}
+.contenido h1:first-letter, .contenido h2:first-letter, .contenido h3:first-letter {
+    text-decoration: underline;
+}
+
+/* Icono */
+.iconos p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.iconos img {
+    width: 64px;
+    margin-right: 74px;
+}
+
+.iconos img:last-child {
+    margin-right: 0;
+    
+}
+
+/* Resto */
+.resto {
+    margin-top: 30px;
+}
+.resto a {
+    font-family: monospace;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    background-color: lightyellow;
+    border: 3px solid orange;
+    /* width: 100px; -> no sirve para un element inline como lo es <a> o <img>*/ 
+    display: block; /* para que ocupe todo el ancho del bloque al que pertenece */
+    text-align: center; /* centrará el texto del elemento de bloque correspondiente */
+    margin-bottom: 20px;
+}
+
+.resto a:hover {
+    background-color: orange;;
+}
+
+.resto img {
+    width: 100%; /* es el 100% de su contenedor, que es el componente resto, y resto ocupa el 100% de main, que main tiene 600px de ancho
+                    por lo que esta img va a tener 600px de ancho tambien */
+}
+
+.resto h4 {
+    text-align: center; /* h4 es tipico elemento de nivel de bloque por lo que se le puede poner el text-align */ 
+}
